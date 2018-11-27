@@ -1,0 +1,36 @@
+{
+  "name": "dev-connector-mevn-backend",
+  "version": "1.0.0",
+  "description": "Backend API solution for the devconnector app, featured in the Udemy Course \"MERN Stack Front to Back\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ringlander-apps/dev-connector-mevn-backend.git"
+  },
+  "keywords": [
+    "MEVN",
+    "ExpressJS",
+    "Mongoose",
+    "MongoDB",
+    "Passport",
+    "Node"
+  ],
+  "author": "Fredrik Ringlander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ringlander-apps/dev-connector-mevn-backend/issues"
+  },
+  "homepage": "https://github.com/ringlander-apps/dev-connector-mevn-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.14",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
