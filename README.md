@@ -2,9 +2,13 @@
 ## Introduction
 Welcome to the dev-connector-mevn-backend repo. 
 This repos is built following the Udemy course:
+
 **"MERN Stack Front To Back"**:
+
 https://www.udemy.com/mern-stack-front-to-back/learn/v4/overview 
+
 by **Brad Traversy**: 
+
 https://github.com/bradtraversy
 
 _From the course description:_
