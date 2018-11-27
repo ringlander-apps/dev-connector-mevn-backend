@@ -1,7 +1,7 @@
 # dev-connector-mevn-backend
 ## Introduction
 Welcome to the dev-connector-mevn-backend repo. 
-This repos is built following the Udemy course:
+This repos is built whilst following the Udemy course:
 
 **"MERN Stack Front To Back"**:
 
@@ -38,7 +38,9 @@ _From the course description:_
 
 >This is NOT an "Intro to React" or "Intro to Node" course. It is a practical hands on course for building an app using the incredible MERN stack. I do try and explain everything as I go so it is possible to follow without React/Node experience but it is recommended that you know at least the basics first.
 
-This repo will also serve as the backend solution supporting the to-be-built front-end _dev-connector-mevn-fe_ using:
+The purpose of this repo is to serve as the back-end solution supporting the _to-be-built_ front-end: **dev-connector-mevn-frontend**
+
+Front-end will be built using:
 
 **vuejs**: https://vuejs.org/
 
@@ -46,5 +48,5 @@ This repo will also serve as the backend solution supporting the to-be-built fro
 
 **vuex**: https://vuex.vuejs.org/
 
-replacing the React ditos in the front built in the Udemy course.
+as an alternative solution to the React implementation built in the Udemy course.
 
