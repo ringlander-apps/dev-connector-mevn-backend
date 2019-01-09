@@ -2,7 +2,7 @@
 
 ## API should support the following functionality in accordance to the business requirements.
 
-### 1. USER should be able to [**register**](./USER/register.md "Register an account requirement") an account in the application with the following information
+### 1. USER should be able to [**register**](./auth/register.md "Register an account requirement") an account in the application with the following information
 
 - Name
 - Email
