@@ -1,8 +1,18 @@
 //Bring in Express
 const express = require("express");
+const bodyParser = require("body-parser");
+//Bring in routes
+const auth = require("./routes/api/auth");
 
 //Setup express
 const app = express();
+
+//Setup and USE body-parser middleware
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+app.use("/api/v1/auth", auth);
+
 //Port
 const port = process.env.PORT || 5000;
 
