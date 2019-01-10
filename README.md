@@ -193,3 +193,45 @@ This will kick-off nodemon which in turn will run the "start" script
 ![Alt text](documentation/images/up_and_running_nodemon.jpg)
 
 ---
+
+# 2. API Requirements and initiating TDD concept
+
+In this section we should start setting the requirements for the API.
+
+The full documentation of the API requirements are stored [here](./requirements/requirement_base.md).
+
+Process and methodology is that we should try to map each requirement to a test case which we create using Chai assertion library.
+
+The described tests will be run using Mocha test runner.
+
+## 2.1 Installing additional dependencies
+
+The following packages are installed to support validation and TDD development.
+
+## 2.1.1 Production dependencies
+
+### - [validator.js](https://github.com/chriso/validator.js/)
+
+- _A library of string validators and sanitizers._
+
+  `$ npm install validator`
+
+## 2.1.2 Development dependencies
+
+### - [request.js](https://github.com/request/request)
+
+- _Simplified HTTP request client. Used for making HTTP requests to the API routes, during testing of the API_
+
+  `$ npm i --save-dev request`
+
+### - [chai.js](https://www.chaijs.com/)
+
+- _Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework._
+
+  `$ npm i --save-dev chai`
+
+### - [mocha.js](https://mochajs.org/)
+
+- _Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun._
+
+  `$ npm i --save-dev mocha`
